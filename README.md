@@ -99,13 +99,13 @@ The API is documented using a Postman collection. Follow these steps to use it:
    - Import the `order-payment-api.postman_collection.json` file into Postman.
 
 2. **Set up the environment**:
-   - Create an environment named `Order Payment API` with a variable `auth_token`.
+   - Create an environment named `Order Payment API` with a variable `token`.
 
 3. **Authenticate**:
-   - Run the `Login` request to authenticate and set the `auth_token` environment variable.
+   - Run the `Login` request to authenticate and set the `token` environment variable.
 
 4. **Use the token**:
-   - Use the `{{auth_token}}` variable in the `Authorization` header for all requests.
+   - Use the `{{token}}` variable in the `Authorization` header for all requests.
 
 ---
 
